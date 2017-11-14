@@ -6,7 +6,7 @@
         
 		<meta name="description" content="Información General">
 		<meta name="author"      content="Sara Bastos">     
-        <meta name="keywords"    content="Bancos de Nivel, GNSS, SIRGAS">
+       		 <meta name="keywords"    content="Bancos de Nivel, GNSS, SIRGAS">
     
         
         <link rel="stylesheet" href="css/estilos.css">
@@ -17,9 +17,9 @@
             <a href="index.html">Principal</a> 
             <a href="descripcion.html">Descripción</a> |
             <a href="mapa.html">Mapa</a> |
-        </nav> 
+         </nav> 
 		
-  <h1>Monitoreo de las alturas niveladas de las estaciones GNSS SIRGAS</h1>
+    <h1>Monitoreo de las alturas niveladas de las estaciones GNSS SIRGAS</h1>
   
 
    
@@ -58,73 +58,72 @@
   <tr>
     <th>Nombre de Estación </th>
     <th>Administrador de la estación</th>
-	<th>Sitio para descarga</th>
-	<th>Enlace Serie temporal de estación</th>
+    <th>Sitio para descarga</th>
+    <th>Enlace Serie temporal de estación</th>
 
   </tr>
     <tr>
     <td>ETCG</td>
     <td>ETCG</td>
-	<td><a href="ftp://www.cenat.ac.cr/gps">CENAT</a></td>
-	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    <td><a href="ftp://www.cenat.ac.cr/gps">CENAT</a></td>
+    <td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
     </tr>
-    <tr>
+   <tr>
     <td>CRLP</td>
     <td>CENAT</td>
-	<td><a href="ftp://www.cenat.ac.cr/gps">CENAT</a></td>
-	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    <td><a href="ftp://www.cenat.ac.cr/gps">CENAT</a></td>
+    <td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
   <tr>
     <td>AACR</td>
     <td>AACR</td>
-	<td><a href="ftp://www.cenat.ac.cr/gps">CENAT</a></td>
-	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    <td><a href="ftp://www.cenat.ac.cr/gps">CENAT</a></td>
+    <td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
   </tr>
     <tr>
     <td>RIDC</td>
     <td>IGN-RI</td>
-	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
-	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    <td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td> 
+    <td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
     </tr>
-	<tr>
+  <tr>
     <td>LIBE</td>
     <td>IGN-RI</td>
-	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
-	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
-    </tr>
-	<tr>
-    <td>CIQE</td>
-    <td>IGN-RI</td>
-	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
-	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    <td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td> 
+    <td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+   </tr>
+   <tr>
+      <td>CIQE</td>
+      <td>IGN-RI</td>
+      <td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
+      <td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
     </tr>
 	<tr>
 	<td>NICY</td>
-    <td>IGN-RI</td>
+        <td>IGN-RI</td>
 	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
 	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
     </tr>
 	<tr>
 	<td>PUNT</td>
-    <td>IGN-RI</td>
+        <td>IGN-RI</td>
 	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
 	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
     </tr>
-		<tr>
+    <tr>
 	<td>SAGE</td>
-    <td>IGN-RI</td>
+        <td>IGN-RI</td>
 	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
 	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
     </tr>
-	 <tr>
+    <tr>
 	<td>NEIL</td>
-    <td>IGN-RI</td>
+        <td>IGN-RI</td>
 	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
 	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
     </tr>
 </table>
-
-				
+		
         <p><cite>Información tomada de <a href="http://www.cnpdg.una.ac.cr/">CNPDG</a></cite></p>
-		<p><cite>Información relacionada <a href="http://www.sirgas.org/es/">SIRGAS</a></cite></p>
+	<p><cite>Información relacionada <a href="http://www.sirgas.org/es/">SIRGAS</a></cite></p>
     </body>
 </html>
