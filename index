@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> MONITOREO DE LAS ALTURAS NIVELADAS </title>
+        
+		<meta name="description" content="Información General">
+		<meta name="author"      content="Sara Bastos">     
+        <meta name="keywords"    content="Bancos de Nivel, GNSS, SIRGAS">
+    
+        
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+
+         <nav>
+            <a href="index.html">Principal</a> 
+            <a href="descripcion.html">Descripción</a> |
+            <a href="mapa.html">Mapa</a> |
+        </nav> 
+		
+  <h1>Monitoreo de las alturas niveladas de las estaciones GNSS SIRGAS</h1>
+  
+
+   
+        <h2>Resumen</h2>
+        <p>
+            La implementación de esta actividad de investigación permitirá solventar una necesidad puntual en la información
+			geodésica vertical del país. Actualmente, en Costa Rica se cuenta con un total de 12 estaciones GNSS de operación
+			continua que están integradas oficialmente a la red SIRGAS-CON y que son procesadas adicionalmente por el CNPDG. </p>
+			
+         <p> Este hecho, implica que la posición geocéntrica de estas estaciones es conocida con alta exactitud debido a su cálculo
+            semanal y vínculo al marco de referencia SIRGAS. Sin embargo, la componente vertical física (altura) es un parámetro
+            fundamental necesario para contribuir con la determinación nacional y regional del geoide.
+			La estrategia de medición propuesta en esta actividad permitirá hacer monitoreo dos veces al año de las diferencias de
+			altura entre los centros de las antenas de las estaciones SIRGAS de Costa Rica y bancos de nivel oficiales del IGN. De
+			esta manera, se podrá iniciar una base de datos con los registros de alturas niveladas sobre estos puntos, las cuales
+			que permitirán detectar eventuales discrepancias. La información relativa a las diferencias de altura nivelada de las
+			estaciones constituyen adicionalmente, datos de gran importancia al GTIII de SIRGAS (Grupo de Trabajo III de
+			SIRGAS).</p>
+
+        <h2>Descripción general</h2>
+			
+		     <p>
+            Desde hace algunos años, el IGN ha facilitado,a solicitud expresa de la proponente, la información análoga y
+			escaneada de los registros de medición así como las fichas de cada uno de los bancos de nivel que se encuentra en
+			todo el territorio nacional. El CNPDG, como parte de sus actividades paralelas, se dio a la tarea de procesar dicha
+			información, sistemátizandola y trasladándola de formato análogo a digital.
+			Todos estos registros se han incorporado en un sistema de información de geográfica ligado con una base de datos.
+			Uno de los mayores productos de este proceso, ha sido la verificación de una serie de circuitos de nivelación mediante
+			el ajuste geodésico de los datos originales. Estos resultados se han expuesto en los Simposios SIRGAS de 2013 y
+			2014 (Bastos et al, 2013)y (Bastos et al, 2014).  </p>
+			
+			
+		<h2>Información de estaciones GNSS</h2>	
+
+	<table>
+  <tr>
+    <th>Nombre de Estación </th>
+    <th>Administrador de la estación</th>
+	<th>Sitio para descarga</th>
+	<th>Enlace Serie temporal de estación</th>
+
+  </tr>
+    <tr>
+    <td>ETCG</td>
+    <td>ETCG</td>
+	<td><a href="ftp://www.cenat.ac.cr/gps">CENAT</a></td>
+	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    </tr>
+    <tr>
+    <td>CRLP</td>
+    <td>CENAT</td>
+	<td><a href="ftp://www.cenat.ac.cr/gps">CENAT</a></td>
+	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+  <tr>
+    <td>AACR</td>
+    <td>AACR</td>
+	<td><a href="ftp://www.cenat.ac.cr/gps">CENAT</a></td>
+	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+  </tr>
+    <tr>
+    <td>RIDC</td>
+    <td>IGN-RI</td>
+	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
+	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    </tr>
+	<tr>
+    <td>LIBE</td>
+    <td>IGN-RI</td>
+	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
+	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    </tr>
+	<tr>
+    <td>CIQE</td>
+    <td>IGN-RI</td>
+	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
+	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    </tr>
+	<tr>
+	<td>NICY</td>
+    <td>IGN-RI</td>
+	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
+	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    </tr>
+	<tr>
+	<td>PUNT</td>
+    <td>IGN-RI</td>
+	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
+	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    </tr>
+		<tr>
+	<td>SAGE</td>
+    <td>IGN-RI</td>
+	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
+	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    </tr>
+	 <tr>
+	<td>NEIL</td>
+    <td>IGN-RI</td>
+	<td><a href="http://rim-data-gnss.rnp.go.cr/spiderweb/frmIndex.aspx">IGN-RI</a></td>
+	<td><a href="http://www.sirgas.org/es/sirgas-con-network/stations/station-list/#">SIRGAS</a></td>
+    </tr>
+</table>
+
+				
+        <p><cite>Información tomada de <a href="http://www.cnpdg.una.ac.cr/">CNPDG</a></cite></p>
+		<p><cite>Información relacionada <a href="http://www.sirgas.org/es/">SIRGAS</a></cite></p>
+    </body>
+</html>
