@@ -3,8 +3,8 @@
   <head>
         <nav>
             <a href="index.html">Principal</a> 
-            <a href="descripcion1.html">Descripción</a> |
-            <a href="mapa.html">Mapa</a> |
+            <a href="descripcion.html">Descripción</a> |
+             |
         </nav> 
     <title>Mapa de estaciones GNSS SIRGAS y Bancos de Nivel oficiales de Costa Rica</title>
 
